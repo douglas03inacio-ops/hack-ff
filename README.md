@@ -1,7 +1,7 @@
 # TeaHackFFTraining
-melhor
-pkg install git -y
 cd ~/TeaHack
-git init
-git add .
-git commit -m "Projeto inicial"
+git status
+git add .gitignore README.md app build.gradle gradle.properties settings.gradle
+git commit -m "Adicionar projeto de treino"
+git branch -M main
+git push -u origin main
